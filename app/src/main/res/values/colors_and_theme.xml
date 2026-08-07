@@ -1,0 +1,16 @@
+<resources>
+    <color name="jarvis_bg">#0A0E12</color>
+    <color name="jarvis_accent">#00D8FF</color>
+    <color name="jarvis_accent_dim">#0A3A45</color>
+    <color name="jarvis_text">#E6F7FB</color>
+
+    <style name="Theme.Jarvis" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/jarvis_bg</item>
+        <item name="colorPrimaryDark">@color/jarvis_bg</item>
+        <item name="colorAccent">@color/jarvis_accent</item>
+        <item name="android:windowBackground">@color/jarvis_bg</item>
+        <item name="android:textColor">@color/jarvis_text</item>
+        <item name="android:editTextColor">@color/jarvis_text</item>
+        <item name="android:textColorHint">#5A7A82</item>
+    </style>
+</resources>
